@@ -1,0 +1,47 @@
+body {
+  background-color: snow;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+h3 {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 1em;
+}
+
+.main-heading {
+  color: indigo;
+  font-size: 2.5rem;
+}
+.main-subtitle {
+  color: gray;
+  font-size: 1.25rem;
+}
+.team-member {
+  width: 256rem;
+}
+.team-member p {
+  opacity: 0.8;
+}
+#anna {
+  background-color: darkcyan;
+  color: beige;
+}
+#anna h2,
+#anna h3 {
+  color: honeydew;
+}
+#harry {
+  background-color: cornsilk;
+}
+#harry h2,
+#harry h3 {
+  color: darkslategray;
+}
+#sofia {
+  background-color: dodgerblue;
+  color: lightcyan;
+}
+#sofia h2,
+#sofia h3 {
+  color: navy;
+}
