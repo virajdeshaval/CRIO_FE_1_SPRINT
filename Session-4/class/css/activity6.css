@@ -1,0 +1,9 @@
+section {
+  height: 256px;
+  background-color: rgb(255, 52, 33);
+}
+
+div {
+  height: 128px;
+  background-color: rgba(15, 107, 255, 0.4);
+}

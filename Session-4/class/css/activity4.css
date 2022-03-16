@@ -1,0 +1,11 @@
+main {
+  background-color: red;
+}
+
+.main {
+  background-color: blue;
+}
+
+#main {
+  background-color: green;
+}
