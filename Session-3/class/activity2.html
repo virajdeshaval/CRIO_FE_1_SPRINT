@@ -2,6 +2,47 @@
 <html>
   <head>
     <title>Current Reads</title>
+    <style>
+      section {
+        background-color: snow;
+      }
+
+      h1 {
+        color: teal;
+      }
+
+      article {
+        background-color: honeydew;
+      }
+
+      summary {
+        color: gray;
+      }
+
+      .book-title {
+        color: cadetblue;
+      }
+
+      .book-author {
+        color: darkgray;
+      }
+
+      .book-summary {
+        color: gray;
+      }
+
+      #author {
+        color: blueviolet;
+      }
+
+      .index-item {
+        color: black;
+      }
+
+      .index-item:hover {
+        color: cadetblue;
+      }
+    </style>
   </head>
 
   <body>
@@ -10,16 +51,18 @@
     </header>
     <nav>
       <ul>
-        <li><a href="#one">One Hundred Years of Solitude</a></li>
-        <li><a href="#two">Atomic Habits</a></li>
-        <li><a href="#three">Sapiens</a></li>
+        <li>
+          <a class="index-item" href="#one">One Hundred Years of Solitude</a>
+        </li>
+        <li><a class="index-item" href="#two">Atomic Habits</a></li>
+        <li><a class="index-item" href="#three">Sapiens</a></li>
       </ul>
     </nav>
     <section>
       <ol>
         <li>
           <article>
-            <h3 id="one">
+            <h3 id="one" class="book-title">
               One Hundred Years of Solitude
             </h3>
             <img
@@ -27,8 +70,8 @@
               width="256px"
               height="400px"
             />
-            <h4>By Gabriel Garcia Marquez</h4>
-            <p>
+            <h4 class="book-author">By Gabriel Garcia Marquez</h4>
+            <p class="book-summary">
               The theme of this book is about two families that witness various
               stages of life over the period of a century. How the protagonist
               try to come to grips with their past and how this obsessiveness
@@ -43,14 +86,14 @@
         </li>
         <li>
           <article>
-            <h3 id="two">Atomic Habits</h3>
+            <h3 id="two" class="book-title">Atomic Habits</h3>
             <img
               src="https://images-na.ssl-images-amazon.com/images/I/91bYsX41DVL.jpg"
               width="256px"
               height="400px"
             />
-            <h4>By James Clear</h4>
-            <p>
+            <h4 class="book-author">By James Clear</h4>
+            <p class="book-summary">
               World-renowned habits expert James Clear has discovered a simpler
               system for transforming your life. He knows that lasting change
               comes from the compound effect of hundreds of small decisions –
@@ -66,14 +109,16 @@
         </li>
         <li>
           <article>
-            <h3 id="three">Sapiens: A Brief History of Humankind</h3>
+            <h3 id="three" class="book-title">
+              Sapiens: A Brief History of Humankind
+            </h3>
             <img
               src="https://images-na.ssl-images-amazon.com/images/I/713jIoMO3UL.jpg"
               width="256px"
               height="400px"
             />
-            <h4>By Yuval Noah Harari</h4>
-            <p>
+            <h4 class="book-author">By Yuval Noah Harari</h4>
+            <p class="book-summary">
               Earth is 4.5 billion years old. In just a fraction of that time,
               one species among countless others has conquered it: us. In this
               bold and provocative book, Yuval Noah Harari explores who we are,
@@ -90,7 +135,7 @@
     </section>
     <footer>
       <h4>Website developed by</h4>
-      <p>
+      <p id="author">
         Viraj Deshaval (<a href="https://virajdeshaval.github.io/viraj"
           >VirajDeshaval</a
         >)
