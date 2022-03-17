@@ -17,9 +17,9 @@ button {
   padding: 16px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  /* display: inline-block; */
   font-size: 16px;
-  margin: 4px 2px 10px;
+  margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
   background-color: white;
@@ -34,37 +34,22 @@ button:hover {
   font-weight: bold;
 }
 
-.container-top {
-  --offset: 100px;
-  --fade: 120px;
-
-  display: flex;
-  width: 60px;
-  justify-self: end;
-  justify-content: flex-end;
-  align-items: flex-end;
-  -webkit-mask: linear-gradient(
-    #0000 calc(100vh + var(--offset)),
-    #000 calc(100vh + var(--offset) + var(--fade))
-  );
-}
-
 .top {
+  --offset: 50px;
+
   position: sticky;
   bottom: 20px;
   margin-right: 10px;
+  place-self: end;
+  margin-top: calc(100vh + var(--offset));
+  left: 100%;
 
   /* visual styling */
-  width: 100%;
-  aspect-ratio: 1;
-  background: #ff8b24;
-  border-radius: 10px;
-}
-.top:before {
-  content: "";
-  position: absolute;
-  inset: 30%;
-  transform: translateY(20%) rotate(-45deg);
-  border-top: 5px solid #fff;
-  border-right: 5px solid #fff;
+  text-decoration: none;
+  padding: 10px;
+  font-family: sans-serif;
+  color: #fff;
+  background: #000;
+  border-radius: 100px;
+  white-space: nowrap;
 }
