@@ -1,0 +1,36 @@
+body {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.sidebar {
+  border-top: 1px solid #dadada;
+  border-right: 1px solid #dadada;
+  border-bottom: 1px solid #dadada;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 10rem;
+  height: 80vh;
+}
+
+#sb-heading {
+  text-transform: uppercase;
+  color: blueviolet;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.sb-item {
+  padding: 0.5rem;
+  margin: 4px;
+}
+
+.sb-item:hover {
+  font-weight: 600;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
