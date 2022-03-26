@@ -3,6 +3,10 @@ body {
   font-family: "IBM Plex Sans", sans-serif;
 }
 
+.profile-img {
+  padding: 0.5rem 0.5rem 0 0.5rem;
+}
+
 h3 {
   font-family: "IBM Plex Mono", monospace;
   font-size: 1em;
@@ -18,7 +22,15 @@ h3 {
 }
 .team-member {
   width: 256rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
 }
+
+.team-member:hover {
+  border: 1px solid #414141;
+}
+
 .team-member p {
   opacity: 0.8;
 }
